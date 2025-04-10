@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidade Angolana | Especialistas em Contabilidade</title>
+    <meta name="description" content="Portal especializado em contabilidade em Angola com artigos, notícias e serviços contábeis">
+    <link rel="icon" href="https://picsum.photos/64?random=100" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#000000",
+                        secondary: "#333333",
+                        accent: "#555555",
+                        light: "#f8f8f8"
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-white text-gray-900 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/120?random=101" alt="Logo Contabilidade Angolana" class="h-12 mr-4">
+                    <h1 class="text-xl font-bold">CONTABILIDADE ANGOLANA</h1>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#" class="font-medium hover:text-gray-600 transition">Início</a></li>
+                        <li><a href="#" class="font-medium hover:text-gray-600 transition">Serviços</a></li>
+                        <li><a href="#" class="font-medium hover:text-gray-600 transition">Artigos</a></li>
+                        <li><a href="#" class="font-medium hover:text-gray-600 transition">Sobre Nós</a></li>
+                        <li><a href="#" class="font-medium hover:text-gray-600 transition">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Conhecimento Contábil para Angola</h2>
+                <p class="text-lg text-gray-700 mb-8">Artigos, notícias e serviços especializados em contabilidade angolana</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#" class="bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition">Nossos Serviços</a>
+                    <a href="#" class="bg-white border border-black px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">Últimos Artigos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <!-- Featured Articles -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-8 border-b border-gray-200 pb-2">Artigos em Destaque</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <article class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition">
+                    <img src="https://picsum.photos/600/400?random=102" alt="Imagem do artigo sobre legislação contábil" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">Legislação</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Novas Regras Contábeis em Angola para 2023</h3>
+                        <p class="text-gray-700 mb-4">Análise das principais mudanças na legislação contábil angolana e como afetam seu negócio.</p>
+                        <a href="#" class="text-black font-medium hover:underline">Ler Artigo →</a>
+                    </div>
+                </article>
+                
+                <!-- Article 2 -->
+                <article class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition">
+                    <img src="https://picsum.photos/600/400?random=103" alt="Imagem do artigo sobre impostos" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">Tributação</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Guia Completo de Impostos para PMEs</h3>
+                        <p class="text-gray-700 mb-4">Tudo o que você precisa saber sobre a tributação de pequenas e médias empresas em Angola.</p>
+                        <a href="#" class="text-black font-medium hover:underline">Ler Artigo →</a>
+                    </div>
+                </article>
+                
+                <!-- Article 3 -->
+                <article class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition">
+                    <img src="https://picsum.photos/600/400?random=104" alt="Imagem do artigo sobre gestão financeira" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">Gestão</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Melhores Práticas de Gestão Financeira</h3>
+                        <p class="text-gray-700 mb-4">Como implementar controles financeiros eficientes na sua empresa angolana.</p>
+                        <a href="#" class="text-black font-medium hover:underline">Ler Artigo →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-8 border-b border-gray-200 pb-2">Nossos Serviços</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Contabilidade Geral</h3>
+                    <p class="text-gray-700">Serviços completos de contabilidade para empresas de todos os portes.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Consultoria Fiscal</h3>
+                    <p class="text-gray-700">Otimização fiscal e planejamento tributário para sua empresa.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Auditoria</h3>
+                    <p class="text-gray-700">Auditorias independentes e revisão de demonstrações financeiras.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Gestão Financeira</h3>
+                    <p class="text-gray-700">Implementação de sistemas e processos de gestão financeira.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="bg-gray-100 border border-gray-200 rounded-lg p-8 mb-16">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-4">Receba Nossas Atualizações</h2>
+                <p class="text-gray-700 mb-6">Inscreva-se para receber artigos exclusivos e atualizações sobre contabilidade em Angola.</p>
+                <form class="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+                    <input type="email" placeholder="Seu e-mail" class="flex-grow px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    <button type="submit" class="bg-black text-white px-6 py-2 rounded-md font-medium hover:bg-gray-800 transition">Assinar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contabilidade Angolana</h3>
+                    <p class="text-gray-400">Especialistas em contabilidade e gestão financeira para empresas em Angola.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Links Rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Início</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Artigos</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contato</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Luanda, Angola</li>
+                        <li>contato@contabilidadeangolana.com</li>
+                        <li>+244 123 456 789</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Redes Sociais</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.
